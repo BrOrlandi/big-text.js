@@ -81,7 +81,7 @@ function _calculateInnerDimensions(computedStyle){
 	return obj;
 }
 
-BigText = function(element, options){
+var BigText = function(element, options){
 
 	if (typeof element === 'string') {
 		element = document.querySelector(element);
